@@ -4,32 +4,7 @@ This project is an AI agent designed to play Pokémon Showdown battles using rei
 
 ## Project Structure
 
-RL_pokemon_showdown_agent/ 
-    ├── data/  
-    │    ├── embeddings/ 
-    │    │      ├── embedding_attaques_dict.json  
-    │    │      ├── embedding_meteo_dict.json 
-    │    │      ├── embedding_object_dict.json 
-    │    │      ├── embedding_talent_dict.json 
-    │    │      └── embedding_type_dict.json │ 
-    │    ├── random_data/ 
-    │    │      └── Dictionnaire_encoding_prediction_randombattle.json 
-    │    ├── sets_random_battle_9/ 
-    │    │      ├── battle_data.json 
-    │    │      ├── battle_data2.json 
-    │    │      ├── battle_data3.json 
-    │    │      └── data_for_training.json 
-    ├── models/  
-    │    ├── prediction/ 
-    │    │    ├── prediction_model_randombattle9g.pth 
-    │    │    ├── scaler_prediction_randombattle9g.pkl 
-    │    └── model_CynthAI_30epochs.pth 
-    │    
-    ├── scripts/ 
-    │   ├── Fonction_information.py 
-    │   ├── Script_entrainement.py 
-    │    ├── Script_prediction_randombattle9g.py 
-    └── Play.py
+L_Pokemon_Showdown_Agent/ ├── data/ # Data related to the project │ ├── embeddings/ # Embedding files │ │ ├── embedding_attaques_dict.json │ │ ├── embedding_meteo_dict.json │ │ ├── embedding_object_dict.json │ │ ├── embedding_talent_dict.json │ │ ├── embedding_type_dict.json │ │ └── random_data/ │ │ └── Dictionnaire_encoding_prediction_randombattle.json │ ├── sets_random_battle_9/ # Battle set files for training │ │ ├── battle_data.json │ │ ├── battle_data2.json │ │ ├── battle_data3.json │ │ └── data_for_training.json ├── models/ # Pre-trained models and related files │ ├── prediction/ │ │ ├── prediction_model_randombattle9g.pth │ │ ├── scaler_prediction_randombattle9g.pkl │ │ └── model_CynthAI_30epochs.pth ├── scripts/ # Source code for the project │ ├── fonction_information.py # Information functions │ ├── script_entrainement.py # Training script │ ├── script_prediction_randombattle9g.py # Prediction script │ └── play.py # Main play script └── README.md # Main project documentation
     
 ### Data Directory
 - **embeddings/**: Contains JSON files that define various embeddings used for attacks, weather conditions, objects, talents, and Pokémon types.
