@@ -2,7 +2,9 @@
 
 This project is an AI agent designed to play Pokémon Showdown battles using reinforcement learning techniques. It utilizes embeddings, pre-trained models, and various scripts to enhance gameplay and decision-making.
 
-## Project Structure
+## Disclaimer
+
+This project relies on a modified version of **poke-env**. Please note that it is not intended for use by others and may contain changes that are specific to my use case. Users should be aware that this project might not function correctly or as expected outside of its intended context.
 
 ## Project Structure
 
